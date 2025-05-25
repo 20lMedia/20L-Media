@@ -28,8 +28,12 @@ jobs:
       - name: Build
         run: pnpm build
 
+      - name: Copy CNAME
+        run: cp public/CNAME out/
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
+          cname: 20lmedia.in

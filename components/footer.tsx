@@ -18,7 +18,7 @@ const footerLinks = {
 
 const socialLinks = [
   { icon: Facebook, href: "#", label: "Facebook" },
-  { icon: Twitter, href: "#", label: "Twitter" },
+  { icon: Twitter, href: "https://x.com/20lMedia", label: "Twitter" },
   { icon: Instagram, href: "https://www.instagram.com/20lmedia/", label: "Instagram" },
   { icon: Linkedin, href: "#", label: "LinkedIn" },
   { icon: Youtube, href: "https://www.youtube.com/@20lmedia_agency", label: "YouTube" },
